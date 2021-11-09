@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace AdvancedCourse.Lecture_2
 {
@@ -44,7 +42,7 @@ namespace AdvancedCourse.Lecture_2
                 var pObject = (Person)obj;
                 if (obj.GetType() == typeof(Person))
                 {
-                    return pObject.age == this.age && pObject.name == this.name;
+                    return pObject.age == age && pObject.name == name;
                 }
                 else
                 {
